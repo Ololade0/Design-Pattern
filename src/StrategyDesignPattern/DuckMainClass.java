@@ -1,4 +1,4 @@
-package ObservePattern;
+package StrategyDesignPattern;
 
 public class DuckMainClass {
     public static void main(String[] args) {

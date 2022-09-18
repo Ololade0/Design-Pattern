@@ -2,24 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f1f1d6b-c735-4aa3-84fb-5717f3d11282" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObservePattern/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObservePattern/DuckMainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObservePattern/FlyBehavior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObservePattern/FlyNoWay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObservePattern/FlyRocketPowered.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObservePattern/FlyWithWings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObservePattern/MallardDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObservePattern/ModelDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObservePattern/MuteQuack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObservePattern/Quack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObservePattern/QuackBehavior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObservePattern/Squeak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPuzzle/AxeBehaviour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPuzzle/BowAndArrowBehaviour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPuzzle/Character.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPuzzle/King.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPuzzle/KnifeBehaviour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPuzzle/Knight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPuzzle/Queen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPuzzle/SwordBehaviour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPuzzle/Troll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPuzzle/WeaponBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObserveDesignPattern/CurrentConditionDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObserveDesignPattern/DisplayElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObserveDesignPattern/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObserveDesignPattern/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObserveDesignPattern/WeatherData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObservePattern/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StrategyDesignPattern/Duck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObservePattern/DuckMainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StrategyDesignPattern/DuckMainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObservePattern/FlyBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StrategyDesignPattern/FlyBehavior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObservePattern/FlyNoWay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StrategyDesignPattern/FlyNoWay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObservePattern/FlyRocketPowered.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StrategyDesignPattern/FlyRocketPowered.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObservePattern/FlyWithWings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StrategyDesignPattern/FlyWithWings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObservePattern/MallardDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StrategyDesignPattern/MallardDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObservePattern/ModelDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StrategyDesignPattern/ModelDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObservePattern/MuteQuack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StrategyDesignPattern/MuteQuack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObservePattern/Quack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StrategyDesignPattern/Quack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObservePattern/QuackBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StrategyDesignPattern/QuackBehavior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObservePattern/Squeak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StrategyDesignPattern/Squeak.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,13 +56,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ObservePattern" />
@@ -60,11 +70,11 @@
   </component>
   <component name="RunManager">
     <configuration name="DuckMainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ObservePattern.DuckMainClass" />
+      <option name="MAIN_CLASS_NAME" value="StrategyDesignPattern.DuckMainClass" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ObservePattern.*" />
+          <option name="PATTERN" value="StrategyDesignPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,11 +82,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.DuckMainClass" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -86,11 +91,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663404034823</updated>
-      <workItem from="1663404036766" duration="2861000" />
+      <workItem from="1663404036766" duration="4575000" />
+      <workItem from="1663416354288" duration="4250000" />
+      <workItem from="1663488270366" duration="1415000" />
+      <workItem from="1663493573361" duration="2865000" />
     </task>
+    <task id="LOCAL-00001" summary="Design pattern">
+      <created>1663406975665</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663406975665</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Design pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Design pattern" />
   </component>
 </project>
